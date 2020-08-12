@@ -18,7 +18,7 @@ window.onload = function () {
         btn.addEventListener('click', function () {
             document.querySelector('#colors .color.selected').classList.remove('selected');
             this.classList.add('selected');
-            image_el.src ="../assets/images/products/shirt_" + this.dataset.name +'.jpg';
+            image_el.src ="../assets/images/products/xr-" + this.dataset.name +'.jpg';
             imagery_el.style.backgroundColor = this.dataset.color;
         });
         
